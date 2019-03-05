@@ -22,7 +22,7 @@ Henderson, M.M. & Serences, J.T. (2019). Human frontoparietal cortex represents 
   - all scripts needed to run the classifier analysis with real and shuffled data labels, saving output as .mat files.
 + Voxel_selection 
   - code to identify informative voxels for classifier analyses, using training set data only.
-- Note that most of this code won't run without the data files that are found in the repository on OSF. Alternatively, the scripts in Run_decoding and Analyze_decoding will re-generate and save all the necessary files.
+- Note that much of this code won't run without the data files that are found in the repository on OSF. Alternatively, the scripts in Run_decoding and Analyze_decoding will re-generate and save all the necessary files.
   
 ### Folders in the OSF repository
 - stimuli
@@ -32,12 +32,11 @@ Henderson, M.M. & Serences, J.T. (2019). Human frontoparietal cortex represents 
   - Each exemplar is rendered at 144 viewpoints (12 rotation steps about two different axes).
   - Each folder consists of images of a single exemplar at each viewpoint - for instance, folder "astim36_rot" contains the 144 images of exemplar 36 in category "a".
 + OM2_anova 
-  - contains the results (.mat files) of voxel selection procedures that are used to identify informative voxels, saved out by the scripts in Voxel_selection folder. 
+  - contains the results (.mat files) of voxel selection procedures that are used to identify informative voxels, saved out by the scripts in Voxel_selection folder.
   - Also contains the results of nonparametric t-tests comparing the univariate signal between conditions.
 + OM2_trialData 
   - contains data (.mat files) for each subject and ROI, consisting of a beta weight corresponding to each trial event [nTrials x nVoxels], as well as labels for the condition and image properties for each trial. 
   - Data for each subject is stored as a structure array, where each element of the array corresponds to one ROI. 
 + OM2_classif_final
-  - contains results of classifier analyses (.mat files), which are loaded by other scripts to perform additional analyses. 
-found in Run_decoding. 
+  - Contains results of classifier analyses (.mat files), which are generated and saved the the scripts in Run_decoding, and used by the scripts in Analyze_decoding.
 
