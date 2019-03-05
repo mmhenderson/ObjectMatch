@@ -7,7 +7,8 @@ Folder structure:
 + Analyze_behavior - all code needed to analyze subject performance on all tasks
 + Run_decoding - all scripts needed to run the classifier analysis with real and shuffled data labels, saving output as .mat files
 + Voxel_selection - code to identify informative voxels for classifier analyses
-+ OM2_classif_final - saved results of classifier analyses (.mat files), which are loaded by other scripts to perform additional analyses. These files are not uploaded here in order to save space - the files can be generated and saved using the scripts found in Run_decoding.
-+ Analyze_decoding - load saved classifier results, calculate mean and standard error of classifier performance in each area, and FDR correct all significance values, saving output which will be loaded by figure-generation scripts. Also contains code to run repeated-measures ANOVA analyses. 
++ OM2_classif_final - saved results of classifier analyses (.mat files), which are loaded by other scripts to perform additional analyses. In order to save space, not all classifier results are uploaded here. All files can be re-generated and saved using the scripts found in Run_decoding. 
++ Analyze_decoding - load saved classifier results, calculate mean and standard error of classifier performance in each area, and FDR correct all significance values, saving output which will be loaded by figure-generation scripts. Also contains code to run repeated-measures ANOVA analyses. Note that some of this code won't run immediately since it will look for files that haven't been uploaded here due to space constraints. Running the scripts in Run_decoding will re-generate all the necessary files.
 + OM2_anova - contains the results of voxel selection procedures that are used to identify informative voxels, saved out by the scripts in Voxel_selection folder. Also contains the results of nonparametric t-tests comparing the univariate signal between conditions.
 + Analyze_univar - compute mean signal in each ROI, compare signal between match and nonmatch trials.
++ Figure_scripts - generate all figures and supplementary figures.
