@@ -1,7 +1,7 @@
 # ObjectMatch
 
 This repository contains all code necessary to reproduce the analyses reported in:
-Henderson, M.M. & Serences, J.T. (2019). Human frontoparietal cortex represents behaviorally-relevant target status based on abstract object features. <em>Journal of Neurophysiology.</em> __https://doi.org/10.1152/jn.00015.2019__\
+Henderson, M.M. & Serences, J.T. (2019). Human frontoparietal cortex represents behaviorally-relevant target status based on abstract object features. <em>Journal of Neurophysiology.</em> <https://doi.org/10.1152/jn.00015.2019>
 ### Folder structure:
 + Analyze_behavior 
   - contains code needed to analyze subject performance on all tasks.
