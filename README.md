@@ -4,10 +4,8 @@ This repository contains all code necessary to reproduce the analyses reported i
 Henderson, M.M. & Serences, J.T. (2019). Human frontoparietal cortex represents behaviorally-relevant target status based on abstract object features. <em>Journal of Neurophysiology.</em> <https://doi.org/10.1152/jn.00015.2019><p> All data and larger analysis files, as well as the novel object stimuli used in this experiment, are found at 
 <https://osf.io/rzx5s/><p>
 ### Folders in this repository
-+ Analyze_behavior 
-  - contains code needed to analyze subject performance on all tasks.
-+ Analyze_decoding 
-  - contains code to load saved classifier results from the folder OM2_classif_final, calculate mean and standard error of classifier performance in each area, and FDR correct all significance values, saving output which will be loaded by figure-generation scripts. Also contains code to run repeated-measures ANOVA analyses. 
++ Analyze_behavior: contains code needed to analyze subject performance on all tasks.
++ Analyze_decoding: contains code to load saved classifier results from the folder OM2_classif_final, calculate mean and standard error of classifier performance in each area, and FDR correct all significance values, saving output which will be loaded by figure-generation scripts. Also contains code to run repeated-measures ANOVA analyses. 
 + Analyze_images 
   - compute pixelwise similarity between pairs of images.
 + Analyze_univar 
