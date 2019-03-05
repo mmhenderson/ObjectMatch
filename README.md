@@ -26,8 +26,8 @@ Henderson, M.M. & Serences, J.T. (2019). Human frontoparietal cortex represents 
   
 ### Folders in the OSF repository
 - stimuli
-  - Contains the complete novel object stimulus set. This includes 6 categories of objects, labeled as "a", "b", "c", "d", "e", "f". 
-  - In the text, the categories a-c are refered to as stimulus set A, the categories d-f are referred to as stimulus set B.
+  * Contains the complete novel object stimulus set. This includes 6 categories of objects, labeled as "a", "b", "c", "d", "e", "f". 
+  * In the text, the categories a-c are refered to as stimulus set A, the categories d-f are referred to as stimulus set B.
   - Each category includes 36 exemplars (varying in peripheral feature shapes). In the experiment, each subject viewed only two exemplars in each category during scanning.
   - Each exemplar is rendered at 144 viewpoints (12 rotation steps about two different axes).
   - Each folder consists of images of a single exemplar at each viewpoint - for instance, folder "astim36_rot" contains the 144 images of exemplar 36 in category "a".
