@@ -8,7 +8,6 @@ Henderson, M.M. & Serences, J.T. (2019). Human frontoparietal cortex represents 
   - contains code needed to analyze subject performance on all tasks.
 + Analyze_decoding 
   - contains code to load saved classifier results from the folder OM2_classif_final, calculate mean and standard error of classifier performance in each area, and FDR correct all significance values, saving output which will be loaded by figure-generation scripts. Also contains code to run repeated-measures ANOVA analyses. 
-  - Note that some of this code won't run immediately since it will look for files that haven't been uploaded here due to space constraints. The scripts in Run_decoding will re-generate and save all the necessary files.
 + Analyze_images 
   - compute pixelwise similarity between pairs of images.
 + Analyze_univar 
@@ -23,6 +22,7 @@ Henderson, M.M. & Serences, J.T. (2019). Human frontoparietal cortex represents 
   - all scripts needed to run the classifier analysis with real and shuffled data labels, saving output as .mat files.
 + Voxel_selection 
   - code to identify informative voxels for classifier analyses, using training set data only.
+- Note that most of this code won't run without the data files that are found in the repository on OSF. Alternatively, the scripts in Run_decoding and Analyze_decoding will re-generate and save all the necessary files.
   
 ### Folders in the OSF repository
 - stimuli
@@ -31,7 +31,7 @@ Henderson, M.M. & Serences, J.T. (2019). Human frontoparietal cortex represents 
   - Each category includes 36 exemplars (varying in peripheral feature shapes). In the experiment, each subject viewed only two exemplars in each category during scanning.
   - Each exemplar is rendered at 144 viewpoints (12 rotation steps about two different axes).
   - Each folder consists of images of a single exemplar at each viewpoint - for instance, folder "astim36_rot" contains the 144 images of exemplar 36 in category "a".
-  + OM2_anova 
++ OM2_anova 
   - contains the results (.mat files) of voxel selection procedures that are used to identify informative voxels, saved out by the scripts in Voxel_selection folder. 
   - Also contains the results of nonparametric t-tests comparing the univariate signal between conditions.
 + OM2_trialData 
