@@ -13,7 +13,7 @@ Folder structure:
 + OM2_corrMat - contains results (.mat files) of the analyses in Analyze_images, including pairwise similarity between all images viewed by each subject.
 + OM2_trialData - contains data (.mat files) for each subject and ROI, consisting of a beta weight corresponding to each trial event [nTrials x nVoxels], as well as labels for the condition and image properties for each trial. Data for each subject is stored as a structure array, where each element of the array corresponds to one ROI. 
 + Run_decoding - all scripts needed to run the classifier analysis with real and shuffled data labels, saving output as .mat files.
-+ Voxel_selection - code to identify informative voxels for classifier analyses, making sure to use training set data only.
++ Voxel_selection - code to identify informative voxels for classifier analyses, using training set data only.
 
 
 
