@@ -16,7 +16,7 @@ Henderson, M.M. & Serences, J.T. (2019). Human frontoparietal cortex represents 
 + Figure_scripts 
     + Generate all figures and supplementary figures from the text.
 + OM2_behavior
-    + All behavioral data collected during scan runs, in .mat format
+    + All behavioral data collected during scan runs, in .mat format.
 + OM2_corrMat
     + Contains results (.mat files) of the analyses in Analyze_images, including pairwise similarity between all images viewed by each subject.
 + Run_decoding
